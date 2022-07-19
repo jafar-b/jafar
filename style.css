@@ -48,6 +48,7 @@ nav{
 .logo img{
 	height:3.4375rem;
 	border-radius: 1.5625rem;
+	box-shadow: 1px 5px 10px #838a91;
 }
 
 nav ul{
@@ -55,6 +56,7 @@ nav ul{
 }
 
 nav ul li a{
+box-shadow: 1px 5px 5px #66717b;
 height: 2.5rem;
 line-height: 2.6875rem;
 margin: 0.1875rem;
@@ -134,6 +136,7 @@ nav ul li a:hover{
     width: 21.875rem;
      height: 21.875rem;
     border-radius: 50%;
+	box-shadow: 2px 10px 25px #4d403a;
 
 }
 
@@ -385,32 +388,7 @@ footer p{
 	height: 1.25rem;
 }
 
-.typing{
-    color: var(--purple);
-    margin-left: 0.625rem;
-    /* position: relative; */
-}
 
-/* create typing pipe */
-.typing::after{
-    content: "";
-    /* position: absolute;   */
-    width: 0.0625rem; 
-    right: -4px; 
-    height: 50%;
-    border-right: 2px solid var(--purple);
-    animation: blink 0.5s infinite ease;
-    /* z-index: -1; */
-}
-
-@keyframes blink{
-    0%{
-        opacity: 0;
-    }
-    100%{
-        opacity: 1;
-    }
-}
 
 
 
