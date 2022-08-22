@@ -1,5 +1,4 @@
-*{
-	box-sizing:border-box;
+*{	box-sizing:border-box;
 	scroll-behavior: smooth;
 	margin: 0px;
 padding: 0px;
@@ -7,11 +6,9 @@ padding: 0px;
 
 body {
     font-family: 'Poppins';
-    margin:0rem;
-	padding: 0rem;
-	background-color: #eeee9e;
+	background-color: hsl(60, 70%, 78%);
 	color: #342220;
-	transition: 0.5s;
+	transition: 0.8s;
 }
 
 body.active {
@@ -23,7 +20,6 @@ ul{
 	list-style:none;
 	gap: 0.625rem;
 	
-
 }
 
 
@@ -32,6 +28,7 @@ ul{
 	width:100%;
 	height:100vh;
 	position: relative;
+	transform: translate(-50%,-50%);
 }
 
 nav{
@@ -58,7 +55,7 @@ nav ul{
 }
 
 nav ul li a{
-	text-decoration: none;
+text-decoration: none;
 box-shadow: 1px 5px 5px #66717b;
 height: 2.5rem;
 line-height: 2.6875rem;
@@ -119,7 +116,7 @@ nav ul li a:hover{
 }
 
 .main-text{
-	width:31.25rem;
+	width: 31rem;
 }
 
 .main-text h1{
@@ -130,6 +127,7 @@ nav ul li a:hover{
 
 
 .say-hi-btn{
+	text-decoration: none;
 	width:11.875rem;
 	height: 2.75rem;
 	display: flex;
@@ -159,13 +157,13 @@ nav ul li a:hover{
 }
 
 #bio {
+	
     display: flex;
 	justify-content: space-around;
 	align-items: center;
 	background-color: #05386B;
 	width: 100%;
-margin: 0;
-padding: 0;
+	height: 40rem;
 	
 }
 #aboutus{
@@ -174,7 +172,7 @@ border-radius: 0.625rem;
 padding-left: 1.25rem;
 color: whitesmoke;
 box-shadow: 5px 10px 14px #0f030c78;
-
+font-size: 3rem;
 }
 
 
@@ -183,6 +181,7 @@ box-shadow: 5px 10px 14px #0f030c78;
     border-radius: 5%;
 	background-color: #05386B;
 	color: whitesmoke;
+	font-size: 1.5rem;
 }
 
 .programmer img{
@@ -190,7 +189,6 @@ box-shadow: 5px 10px 14px #0f030c78;
 	height: 100%;
 	border-radius: 0.625rem;
 }
-
 .programmer {
 	width:18.75rem;
 	height: 18.75rem;
@@ -315,11 +313,13 @@ margin: 2rem 5rem;
 
 }
 
-#contact {
-	margin: 5%;
+#contact  {
+	margin: 1rem;
     border-radius: 5%;
 }
-
+#contact a {
+text-decoration: none;
+}
 .contact-options {
 	display: -ms-flexbox;
     justify-content: stretch;
@@ -349,6 +349,13 @@ footer p{
 	width: 1.25rem;
 	height: 1.25rem;
 }
+
+/* @media (max-width:1080px){
+
+
+} */
+	
+
 
 
 
