@@ -28,7 +28,8 @@ ul{
 	width:100%;
 	height:100vh;
 	position: relative;
-	transform: translate(-50%,-50%);
+	z-index: inherit;
+	/* transform: translate(-50%,-50%); */
 }
 
 nav{
@@ -166,6 +167,7 @@ nav ul li a:hover{
 	height: 40rem;
 	
 }
+
 #aboutus{
 background-color: #1a69e657;
 border-radius: 0.625rem;
