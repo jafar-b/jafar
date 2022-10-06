@@ -14,7 +14,12 @@ body {
 	color: #342220;
 	transition: 0.8s;
 }
- 
+ .aboutmeimg{
+	height:3.5rem;
+	width: 3.5rem;
+	margin-top: 0.5rem;	
+	/* box-shadow: 1px 1px 1px 1px gray */
+ }
 body.active {
     background: #2b2b2b;
 	color: #f8f8f8;
@@ -25,7 +30,9 @@ ul{
 	gap: 0.625rem;
 	
 }
-
+#aboutus{
+	padding-bottom: 1rem;
+}
 
 
 #main{
@@ -50,8 +57,9 @@ nav{
 
 }
 .logo img{
-	height:3.4375rem;
-	border-radius: 1.5625rem;
+	margin:0.1875rem;
+	height:3rem;
+	border-radius:50%;
 	box-shadow: 1px 5px 10px #838a91;
 }
 
