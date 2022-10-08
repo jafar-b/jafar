@@ -6,6 +6,12 @@
 	scrollbar-width: none;
 	
 }
+
+.education-desc{
+
+	margin-left: 1rem;
+}
+
 ::-webkit-scrollbar{display: none;}
 body {
 	scrollbar-width: none;
