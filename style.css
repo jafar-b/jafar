@@ -108,17 +108,22 @@ nav ul li a:hover{
 }
 
 .self img{
-    width: 21.875rem;
-     height: 21.875rem;
+object-fit: 	cover;
+    width: 85%;
+     height:100%; 
     border-radius: 50%;
 	box-shadow: 2px 10px 25px #4d403a;
 
 }
 
 .self {
-	width:25rem;
-	height: 25rem;
-    
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width:20rem; 
+	height: 20rem;
+	max-width: 100%;
+    max-height: 100%;
 }
 
 .content{
